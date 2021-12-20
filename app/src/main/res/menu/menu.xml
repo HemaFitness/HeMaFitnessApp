@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/ic_run"
+        android:title="Schrittzähler"/>
+
+    <item
+        android:id="@+id/ic_location"
+        android:icon="@drawable/ic_location"
+        android:title="Standorte"/>
+
+    <item
+        android:id="@+id/ic_bmi"
+        android:icon="@drawable/ic_bmi"
+        android:title="BMI Rechner"/>
+
+    <item
+        android:id="@+id/ic_stoppuhr"
+        android:icon="@drawable/ic_stoppuhr"
+        android:title="Stoppuhr"/>
+
+</menu>

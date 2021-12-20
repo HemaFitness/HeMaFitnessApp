@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.Startseite">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Willkommen"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"/>
+
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/progress_circular"
+        android:layout_centerInParent="true"
+        app:cpb_background_progressbar_color="#F2F2F2"
+        app:cpb_background_progressbar_width="20dp"
+        app:cpb_progress_max="10000"
+        app:cpb_progressbar_color="#F44336"
+        app:cpb_progressbar_width="15dp"
+        app:cpb_round_border="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_stepsTaken"
+        android:layout_centerInParent="true"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_totalMax"
+        android:layout_below="@+id/tv_stepsTaken"
+        android:layout_centerInParent="true"
+        android:text="/10 000"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toLeftOf="@+id/instagram"
+        android:layout_marginTop="520dp"
+        android:src="@drawable/facebook"/>
+
+    <ImageView
+        android:id="@+id/instagram"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/instagram" />
+
+    <ImageView
+        android:id="@+id/twitter"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="265dp"
+        android:src="@drawable/twitter" />
+
+
+</RelativeLayout>
+
