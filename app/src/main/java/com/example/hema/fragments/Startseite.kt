@@ -41,7 +41,7 @@ class Startseite : Fragment(), SensorEventListener {
 
         facebook.setOnClickListener {
             val openURL = Intent(Intent.ACTION_VIEW)
-            openURL.data = Uri.parse("https://www.facebook.com/")
+            openURL.data = Uri.parse("https://www.facebook.com/people/Hema-Worms/100076150397860/")
             startActivity(openURL)
         }
 
