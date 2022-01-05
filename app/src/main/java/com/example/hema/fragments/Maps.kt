@@ -27,6 +27,8 @@ class Maps : Fragment() {
          * install it inside the SupportMapFragment. This method will only be triggered once the
          * user has installed Google Play services and returned to the app.
          */
+
+        // Positionen der Fitnessstudios in Worms
         val fitX = LatLng(49.626879449501786, 8.358735892936965)
         googleMap.addMarker(MarkerOptions().position(fitX).title("FitX"))
 

@@ -39,6 +39,7 @@ class Startseite : Fragment(), SensorEventListener {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        // Klickbare Icons um auf die jeweiligen Social Media Plattformen zu gelangen
         facebook.setOnClickListener {
             val openURL = Intent(Intent.ACTION_VIEW)
             openURL.data = Uri.parse("https://www.facebook.com/people/Hema-Worms/100076150397860/")
@@ -67,6 +68,7 @@ class Startseite : Fragment(), SensorEventListener {
         running = true
         val stepSensor = sensorManager?.getDefaultSensor(Sensor.TYPE_STEP_COUNTER)
 
+        // Wenn kein Sensor gefunden wurde, dann wird ein display Toast angezeigt
         if(stepSensor == null){
             Toast.makeText(activity,"Es wurde kein Sensor auf diesem Gerät gefunden!",Toast.LENGTH_SHORT).show();
         } else {

@@ -27,12 +27,12 @@ class BmiRechner : Fragment() {
 
         calculate_btn.setOnClickListener {
 
-            // Check if the height EditText and Weight EditText are not empty
+            // Überprüfen ob height EditText und weight EditText nicht leer sind
             if (etHeight.text.isNotEmpty() && etWeight.text.isNotEmpty()) {
                 val height = (etHeight.text.toString()).toInt()
                 val weight = (etWeight.text.toString()).toInt()
 
-                // calculateBMI will return BMI
+                // calculateBMI gibt BMI zurück
                 val BMI = calculateBMI(height, weight)
 
                 bmi.text = BMI.toString()
@@ -60,10 +60,8 @@ class BmiRechner : Fragment() {
                 calculate_btn.visibility = View.GONE
 
             }
-
-            // when either Weight EditText or
-            // height EditText have null value
-            // we will display toast.
+            // Wenn weight oder height EditText null value, dann
+            // wird ein display toast ausgegeben
             else {
                 Toast.makeText(activity,"Bitte gültige Werte für Größe und Gewicht eintragen!",Toast.LENGTH_SHORT).show();
             }
@@ -75,7 +73,7 @@ class BmiRechner : Fragment() {
 
     }
 
-    // Function to reset all Text and EditText fields.
+    // Funktion um alle Text und EditText Felder zu resetten
     private fun ResetEverything() {
 
         calculate_btn.visibility = View.VISIBLE
@@ -88,7 +86,7 @@ class BmiRechner : Fragment() {
         bmi_tv.visibility = View.GONE
     }
 
-    // Function for calculating BMI
+    // Funktion um den BMI auszurechnen
     private fun calculateBMI(height: Int, weight: Int): Float {
 
         val Height_in_metre = height.toFloat() / 100
