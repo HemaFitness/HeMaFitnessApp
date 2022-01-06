@@ -1,0 +1,14 @@
+1Hendrik Bruggraber (676562) Marc Vogel (675905)
+
+11.10.21: 15:00Uhr bis 16:00Uhr Brainstorming / Ideensammlung (1:00h)
+18.10.21: 14.30Uhr bis 15:30Uhr User Stories, Gitlab Projekt (1:00h)
+27.11.21: 15:15Uhr bis 19:45Uhr Hintergrundbild(er), Splashscreen (4:30h)
+29.11.21: 16:00Uhr bis 21:00Uhr Navigationbar, Hintergrund abändern (5:00h)
+02.12.21: 16:00Uhr bis 23:00Uhr Fitnessstudios in der Nähe Standorte (7:00h)
+04.12.21: 17:00Uhr bis 23:30Uhr Standort-Marker, BMI-Rechner (6:30h)
+08.12.21: 15:30Uhr bis 20:15Uhr Schrittzähler (4:45h)
+12.12.21: 20:00Uhr bis 03:00Uhr Hintergrund, Farben, Stoppuhr (07:00h)
+20.12.21: 16:30Uhr bis 21:00Uhr Hintergrund, Schriftart, Farben, Design überarbeitet (4:30h)
+06.01.22: 16:00Uhr bis 22:00Uhr Dokumentation, Präsentationsfolien, Demo-Video etc (6:00h)
+
+Gesamtaufwand: 47:15h
