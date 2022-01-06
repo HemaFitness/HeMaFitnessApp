@@ -1,4 +1,4 @@
-1Hendrik Bruggraber (676562) Marc Vogel (675905)
+Hendrik Bruggraber (676562) Marc Vogel (675905)
 
 11.10.21: 15:00Uhr bis 16:00Uhr Brainstorming / Ideensammlung (1:00h)
 18.10.21: 14.30Uhr bis 15:30Uhr User Stories, Gitlab Projekt (1:00h)
